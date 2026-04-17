@@ -26,7 +26,7 @@ Start off by hackathon with early adopters as mentors \<- I don’t agree, I thi
 
 Start with low-hanging fruit projects: migration of old code-base.   
 Do NOT fall into the “do everything with AI” loop. Do NOT let “AI wild wild west” without intensive test-driven design.  
-Only work small features one at the time. Have Claude write one feature and implement one test at the time \<\< \*\*\* How to plan then? \*\*\*  
+Only work small features one at the time. Have Claude write one feature and implement one test at the time -- **How to plan then?**
 Document the path in miro. Have AI build and change the Miro path just like updating docs as it goes. Add a update docs, update miro skills.  
 Specify precise expected vs. actual behavior. Copy paste screenshots, logs.
 
@@ -41,7 +41,7 @@ Learn to distinguish between tasks that work well asynchronously
 (peripheral features, prototyping) versus those needing synchronous  
 super vision (core business logic, critical fixes). Abstract tasks on the  
 supervision (core business logic, critical fixes). Abstract tasks on the  
-product’s edges can be handled with “auto \-accept mode,”   
+product’s edges can be handled with `auto accept mode`   
 Build custom slash commands: save tokens
 
 # Security
@@ -144,12 +144,13 @@ Inference hijacking– use flagship models outputs to train your local models. K
 Build your own datacenter– BYODC recipe
 
 
-### IDEAS 
+# IDEAS 
 
 
-Target audience: mid-large enterprises, large code base, dev team. Not startups. They benefit from fast dev of wild-wild-west and quick iterations. But some apply for setting good foundation like TDD
+## Target audience: 
+mid-large enterprises, large code base, dev team. Not startups. They benefit from fast dev of wild-wild-west and quick iterations. But some apply for setting good foundation like TDD
 
-Project Pattern:
+## Project Pattern
 Design, architecture, proof audit architecture with ai, presentation
 Next
 Components and Phases: Phased approach. Clear milestones, proto > mvp > map (acceptable) > mmp (marketable) > cp (consumable) — let’s define exactly what qualifies movement into the next stage. What’s added in each step
@@ -168,25 +169,13 @@ In Ai evolution this ^^^ good phase to engage a consultant like us. Guide the fi
 
 Write with examples before the chapter, like Igor Poltzar. Creative or researched 
 
-
-The site, gives you articles and guides. All is there. Read to it yourself. The consultant gives you the instrumentations. Actual tools to build. Actual recipes and exercises to build skills familiarity with tools and adapt for you. 
-
-
-The final build (to prod) state, all about build with voice and video vs text. What’s possible not what was 
-
-
 Small graphic novels for the most important concepts. Or stories!
 
 
-Break your fear game. Where you are with ai? Assess yourself, small exercise to build trust for the next step. Free. 
+## Website Ideas
+The site, gives you articles and guides. All is there. Read to it yourself. The consultant gives you the instrumentations. Actual tools to build. Actual recipes and exercises to build skills familiarity with tools and adapt for you. 
 
 
-What’s feasible game: stages of a: 
-- daily tasks (coding, emails, …)
-- Personal planning. Daily plan, summaries, personal assistant. Event driven
-- Project planning & guide. 
-- Project guide/backend staff: Review process, code, commits. Security review. Boring tasks. Documentation update
-- Internal process automation: marketing, sales ops, growth engineers. Spend much time here.
-- Full on project dev with ai. Process above. 
-- AI in your Apps
-Game with exercise in each step. Paid material. 
+## Future Ideas
+The final build (to prod) state, all about build with voice and video vs text. What’s possible not what was 
+
