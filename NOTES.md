@@ -70,6 +70,13 @@ More likely scenario: you don’t use it, you’re replaced by a younger person 
 
 The front-runners… Need structure. Show them the mistakes others have made. The results of the wild-wild-west. The quality drops.
 
+MIT 4 steps to AI adoption: https://mitsloan.mit.edu/ideas-made-to-matter/whats-your-companys-ai-maturity-level
+- Step 1: building strategy, awareness, culture. Workshops, training, office hours, show and tells, … (EDUCATION.md). Identify low hanging fruit projects and what AI show _NOT_ do.
+    - build the coach-communicate culture now. shift from command and control absolutely.
+- Step 2: making data ready for AI use. APIs, MCP, slash commands, documentation (AGENTS.md). Piloting automation of internal processes.
+
+Biggest challenge in step 2 ( MIT) going from _"command-and-control culture to a coach-and-communicate culture"_. What this means is that: leaders need to shift from giving orders to guiding and supporting their teams, fostering collaboration, and encouraging open communication.
+
 # Team
 
 Project linear page with mcp on personal
