@@ -110,6 +110,8 @@ This is happening naturally where more recent business schools graduates and IVY
 Further, with AI teams can be much more cross functional, with designers, engineers, product managers, and data scientists working together in smaller squads to build AI-enabled products and features. We no longer need a data team, an engineering team, a design team, and a product team, BI team. Instead, we can have cross-functional squads that are empowered to build and ship AI-enabled products and features end-to-end. They are responsible for a portion of company's revenue/product, and they manage their own data, BI, design, engineering, and product management. They are also responsible for their own metrics and KPIs, and they are held accountable for their results. This is a much more efficient and effective way to build products and features in the AI era.
 
 
+_TODO_: put this ^^ thru chatgpt to critique and expand on it like others in [bottlenecks.md](./bottlenecks.md)
+
 # Security
 
 Create a set of approved MCP servers. Lock MCP servers down.
