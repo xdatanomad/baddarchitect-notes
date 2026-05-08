@@ -1,4 +1,12 @@
 
+# Ideas / Outputs
+
+1. AI Adoption Operating Manual: challenges and path to make an AI-native company.
+2. AI Adoption Stages: a framework for understanding the stages of AI adoption in an organization, and the challenges and solutions at each stage.
+3. Tools for Building Production-Grade AI Agents: best practices, patterns, and anti-patterns for building AI agents that can be used in production.
+4. AI Security Best Practices: guidelines for securing AI systems, including approved MCP servers, logging and audit trails, security reviews, and a library of approved security patterns and anti-patterns.
+
+
 # My AI Adoption Stages
 
 ### 1. Adoption
