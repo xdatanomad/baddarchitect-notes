@@ -1,4 +1,19 @@
 
+# My AI Adoption Stages
+
+### 1. Adoption
+Are they actually using the tools. 
+
+Problems:
+- Removing the fear
+- Having the top 10% (performing at 5x) teaching and coaching the rest. 
+- Moving from command and control to coach and communicate culture.
+
+Solutions:
+- Must remove the fear. Incremental exercise, low hanging fruit, small wins, show and tells.
+- Do the foundational work. Perp projects with AGENTS.md, slash commands, documentation, … to make it easy for people to use and see the benefits.
+- Show and tells, workshops, office hours, … (EDUCATION.md). Identify low hanging fruit projects and what AI show _NOT_ do (letting the naysayers have a voice).
+
 
 # Develop
 
@@ -63,6 +78,15 @@ AI generated::
 2. Making data ready for AI use. APIs, MCP, slash commands, documentation (AGENTS.md). Piloting automation of internal processes.
 3. Scaling AI across the organization. Building infrastructure, governance, and culture to support widespread AI adoption.
 
+
+For AI-native companies the bottleneck is turning AI into a repeatable, trusted, margin-positive operating system for the business.
+Companies that do not redesign roles and workflows mostly get tool sprawl.
+
+**Bad AI adoption:**
+“Let’s add copilots, agents, and chatbots.”
+
+**Good AI adoption:**
+“Let’s pick one painful workflow, redesign the workflow around AI, instrument it, evaluate it, integrate it into systems of record, and measure business impact.”
 
 # Security
 
