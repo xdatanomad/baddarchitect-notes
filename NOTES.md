@@ -96,6 +96,20 @@ Companies that do not redesign roles and workflows mostly get tool sprawl.
 **Good AI adoption:**
 “Let’s pick one painful workflow, redesign the workflow around AI, instrument it, evaluate it, integrate it into systems of record, and measure business impact.”
 
+
+### Company Restructure
+
+Smaller teams, more autonomy, more seniority, more accountability.
+
+For years, companies have build layers of middle management to coordinate work across teams. With AI, smaller teams can move much faster, so the need for middle management decreases. Instead, companies should focus on building a culture of accountability and autonomy, where teams are empowered to make decisions and take ownership of their work. In ways, AI agents accompanied by good team metrics and KPIs can act as middle managers and the perfect coach. 
+
+Companies have build a culture of command and control, where leaders give orders and teams follow them. With AI, leaders need to shift to a coach and communicate culture, where they guide and support their teams, foster collaboration, and encourage open communication. This is the key cultural difference that executives and mangers MUST implement and it will only work with effective top down examples.
+
+This is happening naturally where more recent business schools graduates and IVY league elite culture are thinking less cutthroat and more collaborative, but the older generation of leaders need to make a conscious effort to shift their mindset and leadership style to shape the new AI era.
+
+Further, with AI teams can be much more cross functional, with designers, engineers, product managers, and data scientists working together in smaller squads to build AI-enabled products and features. We no longer need a data team, an engineering team, a design team, and a product team, BI team. Instead, we can have cross-functional squads that are empowered to build and ship AI-enabled products and features end-to-end. They are responsible for a portion of company's revenue/product, and they manage their own data, BI, design, engineering, and product management. They are also responsible for their own metrics and KPIs, and they are held accountable for their results. This is a much more efficient and effective way to build products and features in the AI era.
+
+
 # Security
 
 Create a set of approved MCP servers. Lock MCP servers down.
