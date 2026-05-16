@@ -11,6 +11,8 @@ A MUST MUST shift in business mentality. AI promises abundance & freedom of time
 
 It's not hard to say, Capitalism was a mistake. Militarism is not necessary. Let's abandon these concepts and move on. We've moved on from middle age feudalism, from aristocracy, from slavery, from colonialism. From the industrial revolution, from the cold war, from the nuclear age, from the space race, and from the internet age. Let's move on from capitalism and militarism. Let's move on to a new era of abundance, freedom, and creativity.
 
+I know it sounds like a utopian dream, an smoke dream. But this is only power as individuals we that have. Ability to make a shift in our own culture and the culture we teach people around us and our kids. Together, as a collective, our voices and actions can create a shift in global culture and mentality. 
+
 If you like to read more about this topic, there are many resources and scholarly thoughts:
 ...
 
