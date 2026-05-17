@@ -161,9 +161,12 @@ Linear \> pm
 
 Miro \> design, R\&D
 
-# Excels At \_\_\_
+# Excels At 
+
+list of things that AI excels at, and what it does not excel at. Focus on these are articles (possibly) to be written.
 
 Cross referencing many data (dashboards), over human ability, or time consuming 
+
 
 # Assets
 
@@ -178,46 +181,6 @@ Great to read at the beginning of class:
 What can Agentic do well? Chapter 1 \- Page 5  
 [https://resources.anthropic.com/hubfs/Scaling%20agentic%20coding%20across%20your%20organization.pdf?hsLang=en](https://resources.anthropic.com/hubfs/Scaling%20agentic%20coding%20across%20your%20organization.pdf?hsLang=en)
 
-# Articles
-
-## Giants Would Fall
-
-Large tech companies that have outdated software and culture would fall. 
-
-Claude code shrinks the barrier for people to make better versions of their services. 
-
-People would form small software anarchist groups. You got laid off, well then.
-
-Cost of innovation is going down.
-
-Compare to big companies in the industrial area, gas, rail, …
-
-What these companies would do, lay off people, force small groups to innovate, while innovation has long left their company.
-
-They’ll hire experts to fix it, endless cycles, money, same results everytime
-
-Until realize their best power is to invest into the small companies that are going to replace them
-
-Compare current BOA site to Citi, wealthfront
-
-Some would stay forever, cause they’ve always changed. Like google, apple, …
-
-## Software Anarchy
-
-Left behind, form small projects to do something small of the big giant, the internet will find now with ai
-
-Free the world from capitalism– even though they’ll just invest in everything you do, that’s your wish.
-
-## Run Local-first
-
-Local models are the most sacred commodity and IP of every company to come.
-
-Train small open source models. Build (coding) agents with them. Test features with them first.
-
-Inference hijacking– use flagship models outputs to train your local models. Keep retraining with 10% of work.
-
-Build your own datacenter– BYODC recipe
-
 
 # IDEAS 
 
@@ -226,6 +189,9 @@ Build your own datacenter– BYODC recipe
 mid-large enterprises, large code base, dev team. Not startups. They benefit from fast dev of wild-wild-west and quick iterations. But some apply for setting good foundation like TDD
 
 ## Project Pattern
+
+The blueprint for structuring a project and its phases.
+
 Design, architecture, proof audit architecture with ai, presentation
 Next
 Components and Phases: Phased approach. Clear milestones, proto > mvp > map (acceptable) > mmp (marketable) > cp (consumable) — let’s define exactly what qualifies movement into the next stage. What’s added in each step

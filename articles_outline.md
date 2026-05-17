@@ -16,3 +16,40 @@ I know it sounds like a utopian dream, an smoke dream. But this is only power as
 If you like to read more about this topic, there are many resources and scholarly thoughts:
 ...
 
+## Giants Would Fall
+
+Large tech companies that have outdated software and culture would fall. 
+
+Claude code shrinks the barrier for people to make better versions of their services. 
+
+People would form small software anarchist groups. You got laid off, well then.
+
+Cost of innovation is going down.
+
+Compare to big companies in the industrial area, gas, rail, …
+
+What these companies would do, lay off people, force small groups to innovate, while innovation has long left their company.
+
+They’ll hire experts to fix it, endless cycles, money, same results everytime
+
+Until realize their best power is to invest into the small companies that are going to replace them
+
+Compare current BOA site to Citi, wealthfront
+
+Some would stay forever, cause they’ve always changed. Like google, apple, …
+
+## Software Anarchy
+
+Left behind, form small projects to do something small of the big giant, the internet will find now with ai
+
+Free the world from capitalism– even though they’ll just invest in everything you do, that’s your wish.
+
+## Run Local-first
+
+Local models are the most sacred commodity and IP of every company to come.
+
+Train small open source models. Build (coding) agents with them. Test features with them first.
+
+Inference hijacking– use flagship models outputs to train your local models. Keep retraining with 10% of work.
+
+Build your own datacenter– BYODC recipe
