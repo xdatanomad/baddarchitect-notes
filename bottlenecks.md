@@ -161,7 +161,7 @@ The mistake is thinking RAG alone solves this. RAG retrieves documents. It does 
 
 ---
 
-# 3. Trust and reliability
+# 3. Trust and reliability {#trust-and-reliability}
 
 Trust is the production wall.
 
@@ -320,7 +320,7 @@ AI-native companies can also fall into the ROI trap.
 
 They build impressive capabilities, but the economic value is vague.
 
-BCG’s 2025 research says only 5% of companies are achieving AI value at scale, while about 60% report little or no material value despite investment. ([BCG Global][3])
+BCG’s 2025 research says only 5% of companies are achieving AI value at scale, while about 60% report little or no material value despite investment.
 
 That should scare AI-native teams. It means “everyone is using AI” is not the same as “AI is creating business value.”
 
@@ -518,7 +518,7 @@ Gartner predicted that over 40% of agentic AI projects will be canceled by the e
 * Latency becomes unacceptable.
 * Cost per completed workflow is too high.
 
-## The orchestration problem
+## The orchestration problem {#agentic-orchestration}
 
 Agentic systems need orchestration.
 

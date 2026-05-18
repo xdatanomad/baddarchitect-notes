@@ -3,6 +3,12 @@
 Individual articles outline to be written. Each article should be a separate markdown file in the articles directory. The outline should be a list of articles with a brief description of each article.
 
 
+## Trust & Reliability
+
+The trust bar goes high from prototype to production; and even higher when external/customer facing. 
+Thread off the conversation in [bottlenecks.md - trust](bottlenecks.md#trust-and-reliability)
+
+
 ## From command and control to coach and communication
 
 Shifting the work culture from the top management _"command and control"_ style to a more collaborative _"coach and communication"_ style.
@@ -15,6 +21,19 @@ I know it sounds like a utopian dream, an smoke dream. But this is only power as
 
 If you like to read more about this topic, there are many resources and scholarly thoughts:
 ...
+
+## Blueprint for Production-grade Customer-facing Agents
+
+The architecture and design considerations for building production-grade customer-facing agents. Thread off the conversation in [bottlenecks.md - Agentic Problems](bottlenecks.md#agentic-orchestration)
+
+Cover the following topics:
+- Build micro-agents with specific tasks and goals
+- Guardrails and safety
+- State management
+- Retries, observability, audit trail
+- Human-in-the-loop and escalation
+- Tool boundaries
+- Evals
 
 ## Giants Would Fall
 
