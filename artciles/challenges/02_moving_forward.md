@@ -49,7 +49,7 @@ And practically speaking, engagement also **prepares** you. The people learning 
 
 I also understand the excitement. AI is genuinely extraordinary.
 
-But blind acceleration is just as dangerous as blind fear for the following reasons:
+But blind acceleration is dangerous simply for the following facts:
 
 **1:** Intelligence is **power**.
 
@@ -59,8 +59,7 @@ Human history proves that. We are the most intelligent species on Earth, and des
 * driven species toward extinction - and commit genocide daily on our food sources
 * built weapons capable of mass destruction
 * exploited each other economically
-* concentrated power repeatedly
-* used technology for surveillance, propaganda, and war
+* concentrated power
 
 History does not suggest that intelligence automatically produces wisdom.
 
