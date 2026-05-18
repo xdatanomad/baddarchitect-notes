@@ -65,7 +65,7 @@ History does not suggest that intelligence automatically produces wisdom.
 
 **2:** The incentives are **misaligned**.
 
-AI is developed for **profit**. AI development is largely happening inside systems optimized primarily for competition, capital, market dominance, and geopolitical advantage.
+AI is developed for **profit**. The development is largely happening inside systems optimized primarily for competition, capital, market dominance, and geopolitical advantage.
 
 That matters. Because **incentives** shape **outcomes**.
 
