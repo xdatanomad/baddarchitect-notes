@@ -13,8 +13,12 @@
 ---
 
 ## Quick Checklist
-[ ] Item 1
-[ ] Item 2
+[ ] Review AGENTS.md and README.md for project overview and guidelines.
+[ ] Review skills
+[ ] Build an article list repository to track and manage content ideas.
+[ ] Add daily automation for new articles and content.
+[ ] Set up development environment and tools.
+
 
 ---
 
