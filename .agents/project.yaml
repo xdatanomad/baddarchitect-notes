@@ -1,0 +1,27 @@
+name: ai-adoption-blueprint
+working_title: AI Adoption Blueprint
+repository: baddarchitect-notes
+status: agent-scaffolded
+primary_audience:
+  - AI architects
+  - engineering leaders
+  - CTOs
+  - AI adoption teams
+  - enterprise technology leaders
+content_pillars:
+  - AI Adoption Operating Manual
+  - AI Adoption Stages
+  - Production-Grade AI Agents
+  - AI Security Best Practices
+principles:
+  - minimal
+  - practical
+  - candid
+  - security-aware
+  - production-focused
+  - SEO-first
+approval_required_for:
+  - milestone changes
+  - additional skills
+  - final website stack decision
+  - deleting or removing legacy content
