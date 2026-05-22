@@ -13,7 +13,7 @@
 ---
 
 ## Quick Checklist
-[ ] Review AGENTS.md and README.md for project overview and guidelines.
+[x] Review AGENTS.md and README.md for project overview and guidelines.
 [ ] Review skills - build other skills at the end of AGENTS.md.
 	- content planner
 	- content editor
