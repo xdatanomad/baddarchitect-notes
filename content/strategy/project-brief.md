@@ -18,9 +18,9 @@ This site should not be another AI news, prompt, or tool-list site. It should fo
 
 ## Content Pillars
 
-1. AI Adoption Operating Manual.
-2. AI Adoption Stages.
-3. Tools for Building Production-Grade AI Agents.
+1. AI Adoption Stages & Challenges.
+2. AI Adoption Operating Manual.
+3. Tools for Building Production-Grade AI Agents with ROI.
 4. AI Security Best Practices.
 
 ## Tone
@@ -30,6 +30,5 @@ Direct, practical, candid, and grounded. The writing can be personal and opinion
 ## Non-Goals
 
 - Do not become a generic AI news site.
-- Do not publish private personal notes from `MEMORY.md`.
-- Do not create broad claims without citations.
+- Do not create broad claims without having it grounded by evidence or real-world examples.
 - Do not optimize for hype-heavy social media framing at the expense of technical credibility.
