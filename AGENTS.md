@@ -52,7 +52,7 @@ READ `content/strategy/project-brief.md`.
 
 1. Read this file.
 2. Read `content/strategy/project-brief.md`.
-3. Read only the source notes relevant to the task.
+3. Read only the source notes relevant to the task under under `content/strategy/` and `content/notes/`.
 5. Preserve source material and separate raw notes from publishable content.
 6. Add citations for factual claims that depend on external research.
 7. Keep content concise and actionable.
@@ -78,6 +78,17 @@ The website should be:
 - Accessible, responsive, and readable on mobile.
 - Structured for SEO with clean URLs, metadata, sitemap, schema where useful, and strong internal linking.
 - Visually calm, credible, and not overly promotional.
+
+## Website Direction
+
+The likely stack is:
+
+- Next.js or Astro for the main marketing and landing pages.
+- Docusaurus or an MDX documentation system for long-form guides.
+- Markdown/MDX as the primary content format.
+- Static-first deployment on Vercel, Netlify, Cloudflare Pages, or similar.
+
+The final stack decision is not locked yet. See `content/strategy/site-architecture.md`.
 
 ## Project Skills
 

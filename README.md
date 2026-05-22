@@ -16,8 +16,12 @@ The intended website should be minimal, SEO-first, easy to deploy, and easy to m
 - `AGENTS.md` - operating instructions for AI agents working in this repo.
 - `.agents/` - local agent assets, skills, checklists, and workflows.
 - `content/` - organized canonical working area for notes, articles, strategy, and future site content.
-- `artciles/` - legacy source directory preserved exactly as found. The corrected copy lives under `content/articles/`.
-- Root Markdown files - original loose notes preserved for now.
+- `content/articles/` - polished articles ready for publication.
+- `content/notes/` - raw notes, research, and drafts.
+
+## Project Pillars
+
+READ `content/strategy/project-brief.md` for the project brief and core pillars.
 
 ## Milestones
 
