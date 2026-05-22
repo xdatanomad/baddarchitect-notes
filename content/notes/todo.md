@@ -14,7 +14,18 @@
 
 ## Quick Checklist
 [ ] Review AGENTS.md and README.md for project overview and guidelines.
-[ ] Review skills
+[ ] Review skills - build other skills at the end of AGENTS.md.
+	- content planner
+	- content editor
+	- actionable content editor
+	- relatable example generator
+	- linkedin short post generator
+	- linkedin long post generator
+	- linkedin content planner
+	- SEO specialist
+	- AI security specialist
+	- production agent architect
+[ ] Review project milestones in `content/strategy/milestones.md`.
 [ ] Build an article list repository to track and manage content ideas.
 [ ] Add daily automation for new articles and content.
 [ ] Set up development environment and tools.
