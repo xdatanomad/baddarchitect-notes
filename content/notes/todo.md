@@ -40,3 +40,12 @@ Remove friction:
 [x] Completed task title
 	- Notes:
 	- Completed:
+
+
+
+These are candidates only. Do not add them until the user approves.
+
+- `content-strategy` - guide agents through transforming raw notes into publishable article briefs, outlines, and finished pages.
+- `seo-editorial-review` - enforce titles, descriptions, slugs, internal links, schema ideas, and search-intent checks.
+- `ai-security-review` - review AI/MCP/agent content and future code for permission boundaries, audit trails, prompt injection, data exposure, and approval gates.
+- `production-agent-architecture` - guide content and code around evals, orchestration, tool boundaries, retries, state, observability, and human-in-the-loop design.
