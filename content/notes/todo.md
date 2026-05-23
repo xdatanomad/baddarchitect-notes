@@ -15,7 +15,8 @@
 ## Quick Checklist
 [x] Review AGENTS.md and README.md for project overview and guidelines.
 [ ] Review skills - build other skills at the end of AGENTS.md.
-	- content planner
+	X - content planner
+	- Review content planner. Add a content outline section
 	- content editor
 	- actionable content editor
 	- relatable example generator
