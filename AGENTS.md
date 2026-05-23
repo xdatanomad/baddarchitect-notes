@@ -36,7 +36,7 @@ READ `content/strategy/project-brief.md`.
 **IMPORTANT:** The content will be divided into the following pillars, which will also be reflected in the website structure:
 1. AI Adoption Stages & Challenges.
 2. AI Adoption Operating Manual.
-3. Tools for Building Production-Grade AI Agents with ROI.
+3. A Blueprint for building Production AI Systems and Agents with ROI.
 4. AI Security Best Practices.
 
 ## Current Content Map
