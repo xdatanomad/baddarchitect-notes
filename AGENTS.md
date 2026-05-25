@@ -66,7 +66,6 @@ READ `content/strategy/project-brief.md`.
 - Practical examples, checklists, diagrams, or decision rules where useful.
 - Clear separation between opinion, experience, and cited external claims.
 - SEO-ready title, description, canonical slug, and internal links.
-- No private personal context copied from `MEMORY.md`.
 
 ## Website Quality Bar
 
