@@ -16,8 +16,8 @@
 [x] Review AGENTS.md and README.md for project overview and guidelines.
 [ ] Review skills - build other skills at the end of AGENTS.md.
 	X - content planner
-	- Review content planner. Add a content outline section FROM `codex resume`
-	- content editor
+	X - Review content planner. Add a content outline section FROM `codex resume`
+	X - content editor
 	- actionable content editor
 	- relatable example generator
 	- linkedin short post generator
