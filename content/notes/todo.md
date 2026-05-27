@@ -20,8 +20,8 @@
 	X - content editor
 	X - actionable content editor
 	X - relatable example generator
-	- linkedin short post generator
-	- linkedin long post generator
+	X - linkedin short post generator
+	X - linkedin long post generator
 	- linkedin content planner
 	- SEO specialist
 	- AI security specialist
