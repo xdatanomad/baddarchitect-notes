@@ -18,8 +18,8 @@
 	X - content planner
 	X - Review content planner. Add a content outline section FROM `codex resume`
 	X - content editor
-	- actionable content editor
-	- relatable example generator
+	X - actionable content editor
+	X - relatable example generator
 	- linkedin short post generator
 	- linkedin long post generator
 	- linkedin content planner
