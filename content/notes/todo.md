@@ -22,7 +22,7 @@
 	X - relatable example generator
 	X - linkedin short post generator
 	X - linkedin long post generator
-	- linkedin content planner
+	X - linkedin content planner
 	- SEO specialist
 	- AI security specialist
 	- production agent architect
