@@ -15,15 +15,15 @@ This article is about the second real challenge in AI-native adoption: the **tru
 
 ## The Signal
 
-The pressure to ship customer-facing AI is real. The customer appetite for it is not.
+The pressure to ship customer-facing AI is real. The customer appetite for it is not. And the companies that ran hardest at it are already pulling back.
 
 Gartner's 2026 survey of customer service leaders found that 91% are under pressure to implement AI this year. ([Gartner, 2026](https://www.gartner.com/en/newsroom/press-releases/2026-02-18-gartner-survey-finds-ninety-one-percent-of-customer-service-leaders-under-pressure-to-implement-ai-in-2026))
 
-But Metrigy's 2026 consumer study found that 85% of consumers prefer interacting with humans for customer service, not AI agents. ([Metrigy, 2026](https://www.metrigy.com/press-release-metrigy-study-85-of-consumers-prefer-interacting-with-humans-vs-ai-agents-for-customer-service/))
+Then there is the gap between _internal_ AI and _customer-facing_ AI. McKinsey's State of AI 2025 found 88% of organizations now use AI somewhere, but no more than 10% in any given function say they are actually scaling AI agents — and customer service suffers the worst from integration gaps, producing "fast conversations, not faster outcomes." Internal copilots are everywhere; autonomous customer-facing agents are rare. ([McKinsey, 2025](https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai))
 
-Verint's 2026 State of Customer Experience survey reported rising customer expectations: customers want faster resolutions _and_ human access when AI fails them. ([Verint, 2026](https://www.verint.com/press-room/2026-press-releases/new-verint-survey-reveals-rising-customer-service-expectations/))
+And the public pullbacks have started. In early 2024, Klarna claimed its AI assistant was doing the work of 700 customer service agents and handling 75% of customer chats. By 2025, CEO Sebastian Siemiatkowski publicly admitted the company had "focused too much on efficiency and cost," that quality dropped, and that Klarna was rehiring humans into a hybrid model. ([Entrepreneur, 2025](https://www.entrepreneur.com/business-news/klarna-ceo-reverses-course-by-hiring-more-humans-not-ai/491396); [CX Today, 2025](https://www.cxtoday.com/contact-center/klarna-redeploys-staff-to-customer-service-pulls-from-marketing-engineering-and-legal-teams/))
 
-So executives are pushing to deploy. Customers are pushing back. The narrow path between those two pressures runs straight through **trust**.
+Executives are pushing to deploy. Customers are pushing back. Even the most public bets are walking it back. The narrow path between those pressures runs straight through **trust**.
 
 ## The Support Engineer Robot
 
