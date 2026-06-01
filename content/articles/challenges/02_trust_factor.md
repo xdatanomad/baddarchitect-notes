@@ -7,9 +7,9 @@
 
 **Takeaway:** An agent that works is not the same as an agent that is safe to speak or act on behalf of the company.
 
-A working agent answers your test prompts. A safe agent survives every customer.
+A working agent answers your test prompts. A safe agent survives every customer, with trust.
 
-The gap between those two is where most customer-facing AI projects quietly stall — or loudly fail. Internal usefulness is a low bar. Customer exposure is a different category of risk: legal, reputational, financial, and emotional.
+This is the largest canyon in the journey from internal AI to customer-facing AI. The gap between those two is where most customer-facing AI projects quietly stall — or loudly fail. Internal usefulness is a low bar. Customer exposure is a different category of risk: legal, reputational, financial, and emotional.
 
 This article is about the second real challenge in AI-native adoption: the **trust factor** between what the team has built and what the customer should be allowed to touch.
 
@@ -40,14 +40,15 @@ That is where the room got quiet.
 Because internal usefulness is not the same as customer-facing trust. The agent worked in the conversations we tested. We did not yet know:
 
 - What happens when a customer pastes a prompt-injection attempt into a ticket?
-- What happens when the agent confidently cites a doc that is six months out of date?
-- What happens when the customer is upset, contractual, or about to churn?
+- What is the confidence threshold for the agent to even try answering? When should it hand-off to a human?
 - What permissions does the agent need to actually _resolve_ anything, and what is the blast radius if those are abused?
-- Who is **accountable** when the agent makes a promise the company cannot keep?
+- Who is **accountable** if the agent makes a promise the company cannot keep?
+
+And the biggest question of all: _Do customers even tolerate interacting with the agent?_
 
 We did not have clean answers. So we did not put it in front of customers. Not yet.
 
-That was not weakness. It was the right call. The agent moved into a **human-reviewed draft** mode — the engineer kept the last click. That single guardrail let us keep the leverage while we worked on closing the trust gap.
+That was not weakness. It was the right call. The agent moved into a **human-reviewed draft** mode — the engineer kept the last click (for now). That single guardrail let us keep the leverage while we worked on closing the trust gap.
 
 ## Output Trust vs. Operational Trust
 
@@ -79,6 +80,10 @@ The boundaries that matter:
 
 This is a security and reliability checklist, not a model checklist. The NIST AI Risk Management Framework treats this as the gap between **trustworthy** and **deployed**, and expects organizations to manage it across the lifecycle, not only at launch. ([NIST](https://www.nist.gov/itl/ai-risk-management-framework))
 
+**Pro Tip;** _AI Agents are actually very good at generating their own corner cases._ 
+
+— Build a test agent that takes your chatbot through adversarial scenarios, emotionally charged conversations, policy edge cases, ...
+
 ## What Customers Will Actually Tolerate
 
 Even a perfectly engineered agent runs into customer **acceptance**.
@@ -96,6 +101,10 @@ Customers expect a human for:
 - complex or unresolved issues
 - contractual, legal, financial, or compliance topics
 - anything where they are already frustrated
+
+**Pro Tip:** It's always accepted for an agent to say: _"While I'm connecting you to a human, here is what I found so far..."_
+
+— that is a **trust-building** handoff, not a **failure**.
 
 This is not irrational. It is calibrated. People know what a bot is good for and what it is not. Hiding the bot, denying escalation, or burying the "talk to a human" button breaks trust faster than a wrong answer ever will.
 
