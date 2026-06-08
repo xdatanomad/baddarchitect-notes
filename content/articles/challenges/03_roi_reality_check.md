@@ -1,0 +1,240 @@
+# The ROI Reality Check: AI Unit Economics and the Moat Problem
+
+**SEO title:** The ROI Reality Check: AI Unit Economics and the Moat Problem  
+**Description:** Why AI products need hard ROI, healthy unit economics, and real defensibility — and how coding agents are reshaping the build-vs-buy line for everything in between.  
+**Canonical slug:** `/challenges/roi-reality-check-ai-unit-economics-moat-problem`  
+**Reader/job:** CTOs, founders, product leaders, and AI practice leaders deciding whether an AI product creates durable value or just expensive activity.
+
+**Takeaway:** A widely used AI feature is not the same as a profitable one. A clever AI feature is not the same as a defensible one.
+
+The first one bleeds margin. The second one gets cloned.
+
+Most AI products fail one of those two tests. Many fail both. They get usage. They generate excitement. And then someone in finance asks the question nobody wants to answer: _what does it cost us to complete one of these workflows, and what does the customer actually pay for it?_
+
+This is the third real challenge in AI-native adoption: the **economics** between what the feature does and what the business gets to keep.
+
+## The Signal
+
+The market is starting to separate the AI bets that compound from the ones that just burn.
+
+BCG's work on the widening AI value gap found only about 5% of companies were achieving meaningful, scaled AI value, while roughly 60% reported little or no material financial impact despite real investment. The differentiator was less about who used AI and more about who redesigned operations around it. ([BCG, 2025](https://www.bcg.com/publications/2025/are-you-generating-value-from-ai-the-widening-gap))
+
+Gartner predicted that over 40% of agentic AI projects will be canceled by the end of 2027, citing escalating costs, unclear business value, and inadequate risk controls. ([Gartner, 2025](https://www.gartner.com/en/newsroom/press-releases/2025-06-25-gartner-predicts-over-40-percent-of-agentic-ai-projects-will-be-canceled-by-end-of-2027))
+
+Meanwhile, coding agents are quietly redrawing the build-vs-buy line. Retool's annual build-vs-buy research has shown a steady drift toward in-house development as AI-assisted coding gets more capable, and Gartner's market guidance has flagged enterprise AI coding agents as a category that will materially change how internal software gets made. ([Retool, 2026](https://retool.com/newsroom/build-vs-buy-report-2026); [Gartner](https://www.gartner.com/en/articles/enterprise-ai-coding-agent-market))
+
+On the pricing side, Bessemer's AI pricing playbook makes the same point in a friendlier tone: seat-based pricing was built for a world where each additional user cost the vendor almost nothing. AI broke that assumption, and the pricing model has to change with it. ([Bessemer, 2026](https://www.bvp.com/assets/uploads/2026/02/The_AI_pricing_playbook_for_founders_Bessemer_Venture_Partners_2026.pdf))
+
+Add it up: most AI projects are not producing durable value, many will be killed for cost, the customer's build option is getting better every quarter, and the dominant pricing model is misaligned with the underlying economics.
+
+That is the ROI reality check.
+
+## The Buyer Shift
+
+A few years ago, a CTO at a 200-person company had a clear default: buy the platform, configure it, move on. Building internal tools meant engineering time, security review, ongoing maintenance, and an opportunity cost no one wanted to defend.
+
+That default is cracking.
+
+I had a conversation recently with a head of operations at a mid-market SaaS company. They were deep into evaluating a popular AI workflow product — somewhere north of $90K per year for the seats they needed. Halfway through the procurement, one of their engineers spent a weekend wiring up the core workflow with Claude Code, a couple of MCP servers, and their internal database.
+
+It was rough. It was 30% of what the vendor offered. But it was the 30% they actually used.
+
+The deal did not close.
+
+This is not an anti-vendor story. The vendor product was better. But the question the buyer asked was new, and the answer was no longer obvious:
+
+> _"Why buy the whole platform if my team can build the 30% we actually need with coding agents?"_
+
+That question will get asked more often, in more rooms, by more buyers. BCG's AI-first SaaS analysis frames the same shift in less direct language: the products that survive will be the ones offering something a coding agent cannot rebuild in a weekend. ([BCG, 2026](https://www.bcg.com/publications/2026/the-ai-first-saas-company-rethinking-the-playbook))
+
+If your product is mostly a wrapper around a model plus a UI, the buyer is increasingly capable of building that themselves.
+
+## Activity Is Not Value
+
+Most AI dashboards measure the wrong things.
+
+- prompts run
+- users active
+- summaries generated
+- agents deployed
+- copilot seats issued
+
+These are **activity** metrics. They prove the feature exists and gets used. They prove nothing about value.
+
+Durable AI value connects to a number finance already cares about:
+
+- cycle time reduced (days to hours)
+- support cost per ticket
+- conversion or retention lift
+- gross margin per customer
+- revenue per employee
+- onboarding or implementation time
+- engineering throughput
+- error rate reduction
+
+If you cannot draw a line from the AI workflow to one of these, you have a feature, not a business case. McKinsey's State of AI work has been consistent on this: high performers redesign workflows and measure outcomes; everyone else measures usage. ([McKinsey, 2025](https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai))
+
+A useful rule: _if your AI metric does not eventually show up on a P&L, an operations dashboard, or a customer renewal slide, it is probably activity dressed up as progress._
+
+## The Margin Trap
+
+This is where popular AI features quietly go negative.
+
+A normal SaaS feature has near-zero marginal cost. One more user, one more action — the vendor barely notices.
+
+AI features do not behave that way.
+
+A single "successful" customer workflow can include:
+
+- a long-context model call
+- a retrieval step over embeddings
+- a reranker pass
+- one or two tool calls
+- a validation or self-check call
+- a retry when the first attempt was malformed
+- an eval and observability trace
+- occasional human review
+
+That is not one model call. That is a small cost stack, run thousands of times a day, against a price the customer pays once per seat per month.
+
+Here is the shape of the trap:
+
+1. The team ships an AI feature inside an existing product.
+2. Usage explodes because the feature is genuinely useful.
+3. The cost per active user quietly triples.
+4. Pricing stays seat-based because changing it mid-contract is hard.
+5. The CFO walks in with a chart.
+6. The feature gets rate-limited, downgraded to a cheaper model, or wrapped in usage caps.
+7. Customer experience degrades. Trust takes the hit.
+
+The feature was not a mistake. The economics were.
+
+The fix is operational, not philosophical:
+
+- **Know the cost per completed workflow**, not just the cost per token.
+- **Route by difficulty.** Cheap model first, escalate only when the cheap model is not enough.
+- **Cache aggressively.** Identical prompts, retrievals, and tool outputs should not be re-paid for.
+- **Use deterministic code wherever AI judgment is not adding value.**
+- **Cap retries and context length.** Unbounded loops turn a $0.04 workflow into a $4 workflow.
+- **Align pricing with cost shape.** Seat pricing is fine for predictable usage; outcome or hybrid pricing is more honest when cost scales with consumption. Bessemer's playbook lays out workable hybrids. ([Bessemer](https://www.bvp.com/assets/uploads/2026/02/The_AI_pricing_playbook_for_founders_Bessemer_Venture_Partners_2026.pdf))
+
+A profitable AI product knows its **cost per completed workflow** the way a SaaS company knows its CAC.
+
+**Pro Tip:** _Instrument cost at the workflow level, not the API level._
+
+— Tag every model call, retrieval, tool call, and human review with a workflow ID. Sum the total at the end of each successful outcome. The number that matters is "cost to finish this job for this customer," not "monthly OpenAI bill."
+
+## A Personal Example
+
+A few months ago, I helped a portfolio team review their flagship AI feature.
+
+The feature was loved. Usage was up and to the right. Internal demos were great. The team wanted to expand it.
+
+We sat down and reconstructed one "successful customer outcome" from the production logs. Not a prompt. The whole workflow — trigger, retrievals, tool calls, retries, the second model call that validated the first, the eval trace, the occasional human nudge.
+
+The fully loaded cost per outcome was roughly **9x** what the team had assumed when they set the price.
+
+At their seat price, heavy users were unprofitable. Light users were subsidizing the heavy ones. Margin was a polite fiction.
+
+It took two weeks of work to fix. Cheaper default model. Aggressive caching on retrieval. Bounded retries. Deterministic code where the AI was adding nothing. A pricing change for the next renewal cohort.
+
+The feature stayed popular. Margin moved from negative to healthy. Nothing about the customer experience got worse.
+
+The lesson I took with me: **most AI features are mispriced because nobody calculated the real cost per outcome before shipping.** Not from carelessness. The cost is hidden across five different bills — model, embeddings, vector DB, observability, human review — and nobody adds them up at the workflow level.
+
+If you do not measure cost per outcome, you do not have a unit economics problem.
+
+You have a unit economics _blind spot_, which is worse.
+
+## The Moat Problem
+
+Even with healthy unit economics, there is a second question:
+
+_What stops someone else from doing this?_
+
+For the first wave of AI products, novelty was enough. Being early was the moat. That window is closing.
+
+Models are converging. APIs are getting cheaper. Coding agents are turning a six-week build into a six-day build. Foundation labs absorb common features into the base layer every few months.
+
+If your product is one of these:
+
+- "AI summarizes meetings"
+- "AI writes emails"
+- "AI chats with your docs"
+- "AI generates SQL"
+- "AI drafts reports"
+
+…you have a feature. You probably do not have a moat.
+
+Defensibility moves elsewhere. The patterns that hold:
+
+- **Proprietary workflow data.** Logs of what got done, by whom, under what constraints. A competitor with the same model cannot rebuild your customer's history.
+- **Deep system integrations.** Real, permissioned, audited connections to the systems where work happens. Integrations are slow to build and hard to copy.
+- **Operational memory.** What was approved last time, what failed, what the customer prefers. Memory compounds; demos do not.
+- **Eval datasets.** A curated set of real-world cases that lets you ship faster and safer than competitors guessing at quality.
+- **Trust and accountability.** Security review, audit trails, customer references, SLAs. Boring on the surface. Brutal to clone.
+- **Distribution.** Existing customer relationships, channel partners, embedded usage in critical workflows.
+- **Process ownership.** Owning a measurable business outcome end-to-end — not just a step inside it.
+
+Notice the pattern. None of these are about the model. All of them are about the workflow, the data, the trust, and the operating layer around the model.
+
+This is why the strongest AI-native companies are starting to look less like model companies and more like **workflow infrastructure companies** that happen to use AI heavily.
+
+## The AI Value Equation
+
+Before defending an AI product or feature, run it through five questions:
+
+1. **Business outcome.** What specific number — cycle time, support cost, conversion, retention, margin, revenue per employee — moves because of this feature, and by how much?
+2. **Cost per completed workflow.** What is the fully loaded cost of one successful outcome, including inference, retrieval, retries, eval, observability, and human review?
+3. **Pricing model alignment.** Does the way you charge customers track the way the feature consumes cost? If usage doubles, does revenue?
+4. **Switching cost.** What real friction stops a customer from leaving — data, integrations, workflow ownership, trust, or just inertia?
+5. **The 90-day clone test.** Could a competent team using current coding agents rebuild the 30% of your product customers actually use, in 90 days?
+
+If you cannot answer 1 and 2 in real numbers, the ROI case is a story.
+
+If you fail 3, the feature leaks money the more successful it gets.
+
+If you fail 5, the moat is rented.
+
+## The 90-Day Clone Test
+
+This last one deserves its own moment.
+
+Pick your most strategic AI feature. Write down exactly what a customer values about it. Now imagine a competent two-engineer team with Claude Code, a couple of MCP servers, and a normal cloud account.
+
+How much of that value can they recreate in 90 days?
+
+Be honest. Pessimistic, even.
+
+If the answer is "most of it," you do not have a defensible product. You have a head start. Head starts are valuable, but they expire.
+
+The point of the test is not to scare yourself. It is to **redirect investment** toward the parts of your product that survive it: the data they do not have, the integrations they cannot quickly rebuild, the trust you have earned and they have not, the workflow you own end-to-end and they only touch a slice of.
+
+That is where the durable margin lives.
+
+## The Point
+
+AI adoption gets serious when the conversation shifts from features to economics.
+
+Not from features to "ROI" in a slide deck — from features to **cost per outcome**, **pricing aligned to cost**, and **defensibility that survives a weekend with Claude Code**.
+
+The AI products that compound share a profile: a clear business outcome, a known cost per completed workflow, a pricing model that tracks the cost shape, and a moat made of workflow ownership, data, integrations, and trust — not novelty.
+
+The ones that get canceled in 2027 share the opposite profile: popular, expensive, copyable, and proud of their activity metrics.
+
+Activity is not value.
+
+Usage is not margin.
+
+Novelty is not a moat.
+
+The workflow is the product. The economics is the business.
+
+---
+
+**Related reading:**
+
+- [The Demo Is Not the Product. The Workflow Is the Product.](./01_demo_workflow_product.md)
+- [The Trust Factor: When Is an AI Agent Safe Enough for Customers?](./02_trust_factor.md)
+- [AI Adoption Starts With Fear](./the_fear.md)
+- [Moving Forward With AI](./02_moving_forward.md)
