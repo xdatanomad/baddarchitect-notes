@@ -26,12 +26,15 @@
 	- SEO specialist
 	- AI security specialist
 	- production agent architect
-[ ] Review project milestones in `content/strategy/milestones.md`.
 
 Remove friction:
-[ ] Build an article list repository to track and manage content ideas.
+[X] Build an article list repository to track and manage content ideas.
 [ ] Add daily automation for new articles and content.
-[ ] Set up development environment and tools.
+[ ] Set up website development environment and tools.
+
+Content:
+[ ] Short linkedin posts for challenges articles.
+[ ] Build a content calendar and schedule for regular posting.
 
 
 ---
