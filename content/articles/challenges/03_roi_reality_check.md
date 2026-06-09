@@ -35,13 +35,17 @@ A few years ago, a CTO at a 200-person company had a clear default: buy the plat
 
 That default is cracking.
 
-I had a conversation recently with a head of operations at a mid-market SaaS company. They were deep into evaluating a popular AI workflow product — somewhere north of $90K per year for the seats they needed. Halfway through the procurement, one of their engineers spent a weekend wiring up the core workflow with Claude Code, a couple of MCP servers, and their internal database.
+A friend of mine runs sales engineering at a B2B SaaS vendor in an adjacent space. He told me about a deal they lost last quarter that he is still thinking about.
+
+The buyer was a mid-market company, deep into a procurement cycle for his product — somewhere north of $90K per year for the seats they needed. The eval went well. The pilot went well. Legal was almost done.
+
+Then, halfway through procurement, one of the buyer's engineers spent a weekend wiring up the core workflow with Claude Code, a couple of MCP servers, and their internal database.
 
 It was rough. It was 30% of what the vendor offered. But it was the 30% they actually used.
 
 The deal did not close.
 
-This is not an anti-vendor story. The vendor product was better. But the question the buyer asked was new, and the answer was no longer obvious:
+My friend was not bitter about it. He was unsettled. His product was better. The customer agreed his product was better. The question the buyer asked was new, and the answer was no longer obvious:
 
 > _"Why buy the whole platform if my team can build the 30% we actually need with coding agents?"_
 
