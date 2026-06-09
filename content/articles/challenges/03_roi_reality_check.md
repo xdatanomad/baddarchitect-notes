@@ -58,7 +58,7 @@ If your product is mostly a wrapper around a model plus a UI, the buyer is incre
 Most AI dashboards measure the wrong things.
 
 - prompts run
-- users active
+- tokens consumed
 - summaries generated
 - agents deployed
 - copilot seats issued
@@ -73,22 +73,25 @@ Durable AI value connects to a number finance already cares about:
 - gross margin per customer
 - revenue per employee
 - onboarding or implementation time
-- engineering throughput
 - error rate reduction
 
-If you cannot draw a line from the AI workflow to one of these, you have a feature, not a business case. McKinsey's State of AI work has been consistent on this: high performers redesign workflows and measure outcomes; everyone else measures usage. ([McKinsey, 2025](https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai))
+_If you cannot draw a line from the AI workflow to one of these,_ you have a feature, not a **business case**. McKinsey's State of AI work has been consistent on this: high performers redesign workflows and measure outcomes; everyone else measures usage. ([McKinsey, 2025](https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai))
 
 A useful rule: _if your AI metric does not eventually show up on a P&L, an operations dashboard, or a customer renewal slide, it is probably activity dressed up as progress._
+
+Not to say that speeding up engineering time or generating summaries is not valuable. It can be. But the value is not in the activity itself. The value is in what that activity enables — faster decisions, cheaper support, more sales, better retention.
+
+**Pro Tip:** _Map your AI features to the business outcomes and put a dollar value on them._
 
 ## The Margin Trap
 
 This is where popular AI features quietly go negative.
 
-A normal SaaS feature has near-zero marginal cost. One more user, one more action — the vendor barely notices.
+A normal SaaS feature had near-zero **marginal cost**. One more user, one more action — the vendor barely notices. 
 
-AI features do not behave that way.
+Traditional SaaS pricing models were built on that assumption. AI features do **not** behave that way.
 
-A single "successful" customer workflow can include:
+A single "successful" customer feature includes:
 
 - a long-context model call
 - a retrieval step over embeddings
@@ -99,7 +102,11 @@ A single "successful" customer workflow can include:
 - an eval and observability trace
 - occasional human review
 
-That is not one model call. That is a small cost stack, run thousands of times a day, against a price the customer pays once per seat per month.
+That is not one model call. That is a small cost stack, _run thousands of times a day, against a price the customer pays once per seat per month._
+
+It is hard to build a fixed monthly user pricing model on top of a variable cost stack that can easily run into the double digits.
+
+---
 
 Here is the shape of the trap:
 
