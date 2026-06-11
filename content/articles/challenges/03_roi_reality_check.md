@@ -169,13 +169,11 @@ Even with healthy unit economics, there is a second question:
 
 _What stops someone else from doing this?_
 
-_Would one of the flagship AI models just do the same thing with a simple wrapper and a UI?_
-
 For the first wave of AI products, novelty was enough. Being early was the moat. That window is closing.
 
----
+Models are converging. Agents used with MCPs and computer-control complete complex workflows that many thought were the domain of "products." - The barrier to entry is dropping fast.
 
-Models are converging. APIs are getting cheaper. Coding agents are turning a six-week build into a six-day build. Foundation labs absorb common features into the base layer every few months.
+_Would one of the flagship AI Agents just do the same thing with a simple wrapper and a UI?_
 
 If your product is one of these:
 
@@ -185,7 +183,7 @@ If your product is one of these:
 - "AI generates SQL"
 - "AI drafts reports"
 
-…you have a feature. You probably do not have a moat.
+…your product is not defensible. You probably do not have a moat.
 
 Defensibility moves elsewhere. The patterns that hold:
 
@@ -209,19 +207,41 @@ Before defending an AI product or feature, run it through five questions:
 2. **Cost per completed workflow.** What is the fully loaded cost of one successful outcome, including inference, retrieval, retries, eval, observability, and human review?
 3. **Pricing model alignment.** Does the way you charge customers track the way the feature consumes cost? If usage doubles, does revenue?
 4. **Switching cost.** What real friction stops a customer from leaving — data, integrations, workflow ownership, trust, or just inertia?
-5. **The 90-day clone test.** Could a competent team using current coding agents rebuild the 30% of your product customers actually use, in 90 days?
 
 If you cannot answer 1 and 2 in real numbers, the ROI case is a story.
 
 If you fail 3, the feature leaks money the more successful it gets.
 
-If you fail 5, the moat is rented.
+If you fail 4, the moat is rented.
+
+## The Window for New AI-Native Apps
+
+There is still a window for new AI-native products — but it is closing fast.
+
+My crystal ball says...
+
+The shape that wins is narrow and specific: take a **judgment-heavy, multi-tool, manual process** — the kind that needed an expert switching between five systems and making careful calls — and turn it into something accurate, trustworthy, and largely automated. Wrap it in **predictable end-user pricing** so adoption is frictionless, while the enterprise contract reflects the real consumption shape. Make **onboarding and integration into existing tools** so easy that a team can go live in minutes, not weeks.
+
+That gets you to the moat. It is not the moat.
+
+The moat is what accumulates after: **proprietary workflow data and operational memory** that compound with every customer, and a **trusted brand** that owns the category in the buyer's head. The wrong instinct is to defend that moat by making it hard to leave — locked data exports, proprietary formats, switching friction as policy. That works for a quarter or two, then it becomes the reason a competitor wins on principle.
+
+Keep customers by being **useful**, not by being sticky.
+
+The window rewards teams that combine all of it:
+- a real process to replace
+- a price the user can predict
+- an onboarding path that gets out of the way
+- and a moat that builds quietly in the background while everyone else is still demoing.
+
 
 ## The 90-Day Clone Test
 
-This last one deserves its own moment.
+Then, there is the ultimate test of defensibility: the 90-day clone test. 
 
-Pick your most strategic AI feature. Write down exactly what a customer values about it. Now imagine a competent two-engineer team with Claude Code, a couple of MCP servers, and a normal cloud account.
+In my opinion, this is the main question that most AI-native companies and entrepreneurs should be asking themselves. And what separates a durable product from a feature for a few more quarters.
+
+Pick your most strategic feature. Write down exactly what a customer values about it. Now imagine a competent two-engineer team with Claude Code, a couple of MCP servers, and a normal cloud account.
 
 How much of that value can they recreate in 90 days?
 
@@ -249,7 +269,7 @@ Usage is not margin.
 
 Novelty is not a moat.
 
-The workflow is the product. The economics is the business.
+The **workflow** is the product. The **economics** is the business.
 
 ---
 
