@@ -234,25 +234,6 @@ The window rewards teams that combine all of it:
 - an onboarding path that gets out of the way
 - and a moat that builds quietly in the background while everyone else is still demoing.
 
-
-## The 90-Day Clone Test
-
-Then, there is the ultimate test of defensibility: the 90-day clone test. 
-
-In my opinion, this is the main question that most AI-native companies and entrepreneurs should be asking themselves. And what separates a durable product from a feature for a few more quarters.
-
-Pick your most strategic feature. Write down exactly what a customer values about it. Now imagine a competent two-engineer team with Claude Code, a couple of MCP servers, and a normal cloud account.
-
-How much of that value can they recreate in 90 days?
-
-Be honest. Pessimistic, even.
-
-If the answer is "most of it," you do not have a defensible product. You have a head start. Head starts are valuable, but they expire.
-
-The point of the test is not to scare yourself. It is to **redirect investment** toward the parts of your product that survive it: the data they do not have, the integrations they cannot quickly rebuild, the trust you have earned and they have not, the workflow you own end-to-end and they only touch a slice of.
-
-That is where the durable margin lives.
-
 ## The Point
 
 AI adoption gets serious when the conversation shifts from features to economics.
