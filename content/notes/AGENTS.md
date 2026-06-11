@@ -11,6 +11,7 @@
 - `NOTES.md` - raw strategy, adoption, security, team, and tooling notes.
 - `articles_outline.md` - article backlog and draft concepts.
 - `todo.md` - project task capture and research prompts.
+- `personal_growth_plan.md` - personal development goals and learning roadmap. includes **personal upskill plan**.
 
 ## Rules
 
